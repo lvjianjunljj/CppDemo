@@ -28,6 +28,9 @@
     <Filter Include="Resource Files\LeetCode\String">
       <UniqueIdentifier>{aba05598-c8c3-446d-afa7-8a5fb0cdc91f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\LeetCode\BitManipulation">
+      <UniqueIdentifier>{dda17555-90da-43be-864a-07eda9b5b6a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestCppMapSet.cpp">
@@ -52,6 +55,12 @@
       <Filter>Resource Files\LeetCode\String</Filter>
     </ClCompile>
     <ClCompile Include="Problem804.cpp">
+      <Filter>Resource Files\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem461.cpp">
+      <Filter>Resource Files\LeetCode\BitManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem657.cpp">
       <Filter>Resource Files\LeetCode\String</Filter>
     </ClCompile>
   </ItemGroup>
