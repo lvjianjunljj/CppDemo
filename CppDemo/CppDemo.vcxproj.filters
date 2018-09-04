@@ -31,6 +31,24 @@
     <Filter Include="Resource Files\LeetCode\BitManipulation">
       <UniqueIdentifier>{dda17555-90da-43be-864a-07eda9b5b6a8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\LeetCode\Array">
+      <UniqueIdentifier>{1e832dff-d713-41cb-8e44-ab51f5cb5423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LeetCode\BinarySearch">
+      <UniqueIdentifier>{8f450472-3a1c-40dc-ac74-c2adf76014f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LeetCode\Tree">
+      <UniqueIdentifier>{6498d4fb-4fd8-4e5a-b074-7669fcd7e272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LeetCode\Math">
+      <UniqueIdentifier>{40b216a3-1869-4b1c-8db7-cea26f84ac88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Algorithm">
+      <UniqueIdentifier>{a921e517-bcb7-43c7-9df3-53fd4343b263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Algorithm\Tree">
+      <UniqueIdentifier>{9d1c26af-af73-4305-9aef-ccea71773772}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestCppMapSet.cpp">
@@ -62,6 +80,21 @@
     </ClCompile>
     <ClCompile Include="Problem657.cpp">
       <Filter>Resource Files\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem832.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem852.cpp">
+      <Filter>Resource Files\LeetCode\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem893.cpp">
+      <Filter>Resource Files\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem590.cpp">
+      <Filter>Resource Files\LeetCode\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem892.cpp">
+      <Filter>Resource Files\LeetCode\Math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

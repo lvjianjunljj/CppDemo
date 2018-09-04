@@ -116,10 +116,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Problem461.cpp" />
+    <ClCompile Include="Problem590.cpp" />
     <ClCompile Include="Problem657.cpp" />
     <ClCompile Include="Problem709.cpp" />
     <ClCompile Include="Problem771.cpp" />
     <ClCompile Include="Problem804.cpp" />
+    <ClCompile Include="Problem852.cpp" />
+    <ClCompile Include="Problem832.cpp" />
+    <ClCompile Include="Problem892.cpp" />
+    <ClCompile Include="Problem893.cpp" />
     <ClCompile Include="TestCppLeetCode.cpp" />
     <ClCompile Include="TestCppMapSet.cpp" />
     <ClCompile Include="TestCppHeaderFile.cpp" />
