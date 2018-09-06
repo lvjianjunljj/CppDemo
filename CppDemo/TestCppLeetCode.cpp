@@ -11,11 +11,22 @@ struct TreeNode {
 class Solution {
 public:
 	int minDiffInBST(TreeNode* root) {
-		int ans = INT_MAX;
+		int prev = 0, ans = INT_MAX;
+		bool start = false;
 		stack<TreeNode*> stk;
-		stk.push(root);
-		while (!stk.empty()) {
-			stk.top();
+		while (root != NULL || !stk.empty()) {
+			while (root != NULL) {
+				stk.push(root);
+				root = root->left;
+			}
+			root = stk.top();
+			stk.pop();
+			if (start) {
+				ans = min(ans, root->val - prev);
+			}
+			prev = root->val;
+			start = true;
+			root = root->right;
 
 		}
 		return ans;
@@ -25,12 +36,6 @@ public:
 
 int main() {
 	Solution s;
-	stack<int> st;
-	st.push(1);
-	st.push(2);
-	cout << st.top() << endl;
-	st.pop();
-	cout << st.top() << endl;
 
 	//cout << s.postorder(B) << endl;
 	system("pause");

@@ -49,6 +49,12 @@
     <Filter Include="Resource Files\Algorithm\Tree">
       <UniqueIdentifier>{9d1c26af-af73-4305-9aef-ccea71773772}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Algorithm">
+      <UniqueIdentifier>{f6fc310f-d123-4ec7-836d-433d5165a4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithm\Tree">
+      <UniqueIdentifier>{73163c2f-0e30-4e1f-b8fa-fccbb28a6cc9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestCppMapSet.cpp">
@@ -96,6 +102,27 @@
     <ClCompile Include="Problem892.cpp">
       <Filter>Resource Files\LeetCode\Math</Filter>
     </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Resource Files\Algorithm\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTree.cpp">
+      <Filter>Resource Files\Algorithm\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="InorderTraversal.cpp">
+      <Filter>Resource Files\Algorithm\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="PostorderTraversal.cpp">
+      <Filter>Resource Files\Algorithm\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="PreorderTraversal.cpp">
+      <Filter>Resource Files\Algorithm\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceTraversal.cpp">
+      <Filter>Resource Files\Algorithm\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem783.cpp">
+      <Filter>Resource Files\LeetCode\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -106,6 +133,21 @@
     </ClInclude>
     <ClInclude Include="TestCppHeaderFileAux.h">
       <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files\Algorithm\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="InorderTraversal.h">
+      <Filter>Header Files\Algorithm\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="PostorderTraversal.h">
+      <Filter>Header Files\Algorithm\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="PreorderTraversal.h">
+      <Filter>Header Files\Algorithm\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceTraversal.h">
+      <Filter>Header Files\Algorithm\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
