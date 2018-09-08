@@ -20,7 +20,7 @@ namespace TestCppMapSet {
 			children = *(new vector<TrieNode*>(26));
 		}
 	};
-	int testMapAndSet() {
+	int main_MapSet() {
 		map<string, int> my_Map;
 		my_Map.insert(map<string, int>::value_type("a", 1));
 		my_Map.insert(pair<string, int>("b", 2));

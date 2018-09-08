@@ -1,5 +1,5 @@
 #include "stdafx.h"
-namespace TestCppHeaderFileAux {
+namespace HeaderFileAux {
 	string test() {
 		return "test method in namespace TestCppHeaderFileAux";
 	}

@@ -1,6 +1,6 @@
 #pragma once
 extern int testcppint;
 extern string test();
-namespace TestCppHeaderFileAux {
+namespace HeaderFileAux {
 	extern string test();
 }

@@ -118,25 +118,35 @@
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="PostorderTraversal.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
+    <ClCompile Include="PriorityQueueDemo.cpp" />
     <ClCompile Include="Problem461.cpp" />
+    <ClCompile Include="Problem533.cpp" />
     <ClCompile Include="Problem590.cpp" />
+    <ClCompile Include="Problem650.cpp" />
     <ClCompile Include="Problem657.cpp" />
     <ClCompile Include="Problem709.cpp" />
+    <ClCompile Include="Problem725.cpp" />
+    <ClCompile Include="Problem733.cpp" />
     <ClCompile Include="Problem771.cpp" />
     <ClCompile Include="Problem783.cpp" />
+    <ClCompile Include="Problem788.cpp" />
     <ClCompile Include="Problem804.cpp" />
+    <ClCompile Include="Problem812.cpp" />
+    <ClCompile Include="Problem817.cpp" />
     <ClCompile Include="Problem852.cpp" />
     <ClCompile Include="Problem832.cpp" />
     <ClCompile Include="Problem892.cpp" />
     <ClCompile Include="Problem893.cpp" />
     <ClCompile Include="SequenceTraversal.cpp" />
-    <ClCompile Include="TestCppLeetCode.cpp" />
-    <ClCompile Include="TestCppMapSet.cpp" />
-    <ClCompile Include="TestCppHeaderFile.cpp" />
-    <ClCompile Include="TestCppHeaderFileAux.cpp" />
-    <ClCompile Include="TestCppThread.cpp" />
-    <ClCompile Include="TestTree.cpp" />
+    <ClCompile Include="SortDemo.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="MapSetDemo.cpp" />
+    <ClCompile Include="HeaderFileDemo.cpp" />
+    <ClCompile Include="HeaderFileAux.cpp" />
+    <ClCompile Include="ThreadDemo.cpp" />
+    <ClCompile Include="TreeDemo.cpp" />
     <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="TypeConvert.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InorderTraversal.h" />
@@ -145,7 +155,7 @@
     <ClInclude Include="SequenceTraversal.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="TestCppHeaderFileAux.h" />
+    <ClInclude Include="HeaderFileAux.h" />
     <ClInclude Include="Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

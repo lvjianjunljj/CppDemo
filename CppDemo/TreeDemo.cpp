@@ -4,7 +4,7 @@
 #include "PreorderTraversal.h"
 #include "PostorderTraversal.h"
 #include "SequenceTraversal.h"
-int main_() {
+int main_Tree() {
 	BinaryTreeNode* root = buildTestTree();
 	cout << "The structure of tree: " << endl;
 	printTree(root);

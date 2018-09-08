@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Resource Files\Test">
-      <UniqueIdentifier>{8f197bfb-b22c-4ad0-b4f1-b1637250ca80}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Test">
-      <UniqueIdentifier>{a98243ec-a761-4543-b419-846d85587b9a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files\LeetCode">
       <UniqueIdentifier>{c70d16ff-6d37-4217-be77-c05ffb3e9965}</UniqueIdentifier>
     </Filter>
@@ -55,23 +49,29 @@
     <Filter Include="Header Files\Algorithm\Tree">
       <UniqueIdentifier>{73163c2f-0e30-4e1f-b8fa-fccbb28a6cc9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\LeetCode\DFS">
+      <UniqueIdentifier>{57d1b0e4-9db5-495a-8320-287082c12232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LeetCode\DP">
+      <UniqueIdentifier>{8f71ece1-b298-49c8-8fc0-41adb8aae8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\STL">
+      <UniqueIdentifier>{1922a505-f959-46e7-96ac-03cf8725ee3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Others">
+      <UniqueIdentifier>{8f197bfb-b22c-4ad0-b4f1-b1637250ca80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Test">
+      <UniqueIdentifier>{5bfe2bee-394b-4a69-a422-4ea86092f075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Others">
+      <UniqueIdentifier>{a98243ec-a761-4543-b419-846d85587b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LeetCode\LinkedList">
+      <UniqueIdentifier>{ef61b73d-c0a9-4844-a9e6-e64f137833cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestCppMapSet.cpp">
-      <Filter>Resource Files\Test</Filter>
-    </ClCompile>
-    <ClCompile Include="TestCppHeaderFile.cpp">
-      <Filter>Resource Files\Test</Filter>
-    </ClCompile>
-    <ClCompile Include="TestCppHeaderFileAux.cpp">
-      <Filter>Resource Files\Test</Filter>
-    </ClCompile>
-    <ClCompile Include="TestCppThread.cpp">
-      <Filter>Resource Files\Test</Filter>
-    </ClCompile>
-    <ClCompile Include="TestCppLeetCode.cpp">
-      <Filter>Resource Files\Test</Filter>
-    </ClCompile>
     <ClCompile Include="Problem771.cpp">
       <Filter>Resource Files\LeetCode\HashTable</Filter>
     </ClCompile>
@@ -105,9 +105,6 @@
     <ClCompile Include="Tree.cpp">
       <Filter>Resource Files\Algorithm\Tree</Filter>
     </ClCompile>
-    <ClCompile Include="TestTree.cpp">
-      <Filter>Resource Files\Algorithm\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="InorderTraversal.cpp">
       <Filter>Resource Files\Algorithm\Tree</Filter>
     </ClCompile>
@@ -123,6 +120,54 @@
     <ClCompile Include="Problem783.cpp">
       <Filter>Resource Files\LeetCode\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Problem812.cpp">
+      <Filter>Resource Files\LeetCode\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem788.cpp">
+      <Filter>Resource Files\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem733.cpp">
+      <Filter>Resource Files\LeetCode\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem650.cpp">
+      <Filter>Resource Files\LeetCode\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Resource Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="HeaderFileDemo.cpp">
+      <Filter>Resource Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="HeaderFileAux.cpp">
+      <Filter>Resource Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadDemo.cpp">
+      <Filter>Resource Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSetDemo.cpp">
+      <Filter>Resource Files\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeDemo.cpp">
+      <Filter>Resource Files\Algorithm\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueueDemo.cpp">
+      <Filter>Resource Files\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="SortDemo.cpp">
+      <Filter>Resource Files\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeConvert.cpp">
+      <Filter>Resource Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem533.cpp">
+      <Filter>Resource Files\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem817.cpp">
+      <Filter>Resource Files\LeetCode\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem725.cpp">
+      <Filter>Resource Files\LeetCode\LinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -130,9 +175,6 @@
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TestCppHeaderFileAux.h">
-      <Filter>Header Files\Test</Filter>
     </ClInclude>
     <ClInclude Include="Tree.h">
       <Filter>Header Files\Algorithm\Tree</Filter>
@@ -148,6 +190,9 @@
     </ClInclude>
     <ClInclude Include="SequenceTraversal.h">
       <Filter>Header Files\Algorithm\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFileAux.h">
+      <Filter>Header Files\Others</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@ void greeting(int index) {
 	cout << "Hello multithread!   " << index << endl;
 }
 
-void testMethod()
+void main_Thread()
 {
 	time_t nowtime = time(NULL);
 	thread t1{ greeting, 0 };
