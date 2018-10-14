@@ -85,6 +85,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -119,14 +122,21 @@
     <ClCompile Include="PostorderTraversal.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="PriorityQueueDemo.cpp" />
+    <ClCompile Include="Problem784.cpp" />
+    <ClCompile Include="Problem905.cpp" />
+    <ClCompile Include="Problem908.cpp" />
+    <ClCompile Include="Problem910.cpp" />
+    <ClCompile Include="Problem914.cpp" />
     <ClCompile Include="Problem461.cpp" />
     <ClCompile Include="Problem533.cpp" />
     <ClCompile Include="Problem590.cpp" />
+    <ClCompile Include="Problem638.cpp" />
     <ClCompile Include="Problem650.cpp" />
     <ClCompile Include="Problem657.cpp" />
     <ClCompile Include="Problem709.cpp" />
     <ClCompile Include="Problem725.cpp" />
     <ClCompile Include="Problem733.cpp" />
+    <ClCompile Include="Problem743.cpp" />
     <ClCompile Include="Problem771.cpp" />
     <ClCompile Include="Problem783.cpp" />
     <ClCompile Include="Problem788.cpp" />
@@ -137,6 +147,9 @@
     <ClCompile Include="Problem832.cpp" />
     <ClCompile Include="Problem892.cpp" />
     <ClCompile Include="Problem893.cpp" />
+    <ClCompile Include="Problem897.cpp" />
+    <ClCompile Include="Problem922.cpp" />
+    <ClCompile Include="Question632.cpp" />
     <ClCompile Include="SequenceTraversal.cpp" />
     <ClCompile Include="SortDemo.cpp" />
     <ClCompile Include="Test.cpp" />

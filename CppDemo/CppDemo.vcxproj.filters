@@ -70,6 +70,15 @@
     <Filter Include="Resource Files\LeetCode\LinkedList">
       <UniqueIdentifier>{ef61b73d-c0a9-4844-a9e6-e64f137833cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\LeetCode\Graph">
+      <UniqueIdentifier>{99a81a8c-495c-4fd6-a38d-0333855f95a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LeetCode\SubSets">
+      <UniqueIdentifier>{1d7b38ec-36ed-4504-bdb9-9ebfc3d7b5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LeetCode\TowPointers">
+      <UniqueIdentifier>{a4e9ac24-a495-469f-99d1-ba75fa05b5a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problem771.cpp">
@@ -167,6 +176,36 @@
     </ClCompile>
     <ClCompile Include="Problem725.cpp">
       <Filter>Resource Files\LeetCode\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem638.cpp">
+      <Filter>Resource Files\LeetCode\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem897.cpp">
+      <Filter>Resource Files\LeetCode\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem743.cpp">
+      <Filter>Resource Files\LeetCode\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem914.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem784.cpp">
+      <Filter>Resource Files\LeetCode\SubSets</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem905.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem922.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem908.cpp">
+      <Filter>Resource Files\LeetCode\TowPointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem910.cpp">
+      <Filter>Resource Files\LeetCode\TowPointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Question632.cpp">
+      <Filter>Resource Files\LeetCode\TowPointers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

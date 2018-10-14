@@ -33,11 +33,22 @@ namespace TestCppMapSet {
 		my_Map.erase("d");
 		map_it = my_Map.find("a");
 		if (map_it == my_Map.end()) {
-
+			cout << "not found" << endl;
+		}
+		if (!my_Map.count("a")) {
+			cout << "not found" << endl;
 		}
 		for (map<string, int>::iterator my_Itr = my_Map.begin(); my_Itr != my_Map.end(); ++my_Itr) {
 			cout << my_Itr->first << "\t" << my_Itr->second << endl;
 		}
+		
+		for (auto i : my_Map) {
+			cout << i.first << "\t" << i.second << endl;
+		}
+		for (map<string, int>::value_type i : my_Map) {
+			cout << i.first << "\t" << i.second << endl;
+		}
+
 		cout << my_Map.size() << endl;
 		cout << my_Map.empty() << endl;
 		my_Map.clear();
