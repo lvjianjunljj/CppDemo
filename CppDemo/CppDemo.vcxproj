@@ -123,6 +123,9 @@
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="PriorityQueueDemo.cpp" />
     <ClCompile Include="Problem784.cpp" />
+    <ClCompile Include="Problem819.cpp" />
+    <ClCompile Include="Problem846.cpp" />
+    <ClCompile Include="Problem865.cpp" />
     <ClCompile Include="Problem905.cpp" />
     <ClCompile Include="Problem908.cpp" />
     <ClCompile Include="Problem910.cpp" />
@@ -148,10 +151,13 @@
     <ClCompile Include="Problem892.cpp" />
     <ClCompile Include="Problem893.cpp" />
     <ClCompile Include="Problem897.cpp" />
+    <ClCompile Include="Problem919.cpp" />
+    <ClCompile Include="Problem921.cpp" />
     <ClCompile Include="Problem922.cpp" />
     <ClCompile Include="Question632.cpp" />
     <ClCompile Include="SequenceTraversal.cpp" />
     <ClCompile Include="SortDemo.cpp" />
+    <ClCompile Include="StringOperationcpp.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="MapSetDemo.cpp" />
     <ClCompile Include="HeaderFileDemo.cpp" />
@@ -167,6 +173,7 @@
     <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="SequenceTraversal.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StringOperation.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="HeaderFileAux.h" />
     <ClInclude Include="Tree.h" />

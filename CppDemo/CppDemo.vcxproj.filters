@@ -19,9 +19,6 @@
     <Filter Include="Resource Files\LeetCode\HashTable">
       <UniqueIdentifier>{3e16882f-45d5-424f-8394-5770ce0e5e5e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\LeetCode\String">
-      <UniqueIdentifier>{aba05598-c8c3-446d-afa7-8a5fb0cdc91f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files\LeetCode\BitManipulation">
       <UniqueIdentifier>{dda17555-90da-43be-864a-07eda9b5b6a8}</UniqueIdentifier>
     </Filter>
@@ -70,14 +67,20 @@
     <Filter Include="Resource Files\LeetCode\LinkedList">
       <UniqueIdentifier>{ef61b73d-c0a9-4844-a9e6-e64f137833cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\LeetCode\TowPointers">
+      <UniqueIdentifier>{a4e9ac24-a495-469f-99d1-ba75fa05b5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LeetCode\Map">
+      <UniqueIdentifier>{3cac424d-2ee8-43e9-912a-e26aae2750df}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Resource Files\LeetCode\Graph">
       <UniqueIdentifier>{99a81a8c-495c-4fd6-a38d-0333855f95a0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files\LeetCode\SubSets">
       <UniqueIdentifier>{1d7b38ec-36ed-4504-bdb9-9ebfc3d7b5c6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\LeetCode\TowPointers">
-      <UniqueIdentifier>{a4e9ac24-a495-469f-99d1-ba75fa05b5a7}</UniqueIdentifier>
+    <Filter Include="Resource Files\LeetCode\String">
+      <UniqueIdentifier>{aba05598-c8c3-446d-afa7-8a5fb0cdc91f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -207,6 +210,24 @@
     <ClCompile Include="Question632.cpp">
       <Filter>Resource Files\LeetCode\TowPointers</Filter>
     </ClCompile>
+    <ClCompile Include="Problem819.cpp">
+      <Filter>Resource Files\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="StringOperationcpp.cpp">
+      <Filter>Resource Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem921.cpp">
+      <Filter>Resource Files\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem865.cpp">
+      <Filter>Resource Files\LeetCode\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem919.cpp">
+      <Filter>Resource Files\LeetCode\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem846.cpp">
+      <Filter>Resource Files\LeetCode\Map</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -231,6 +252,9 @@
       <Filter>Header Files\Algorithm\Tree</Filter>
     </ClInclude>
     <ClInclude Include="HeaderFileAux.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="StringOperation.h">
       <Filter>Header Files\Others</Filter>
     </ClInclude>
   </ItemGroup>
