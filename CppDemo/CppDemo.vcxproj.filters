@@ -82,6 +82,9 @@
     <Filter Include="Resource Files\LeetCode\String">
       <UniqueIdentifier>{aba05598-c8c3-446d-afa7-8a5fb0cdc91f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Recursion">
+      <UniqueIdentifier>{59a8085b-11a9-455f-972c-4fec5a0f39f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problem771.cpp">
@@ -156,9 +159,6 @@
     <ClCompile Include="ThreadDemo.cpp">
       <Filter>Resource Files\Others</Filter>
     </ClCompile>
-    <ClCompile Include="MapSetDemo.cpp">
-      <Filter>Resource Files\STL</Filter>
-    </ClCompile>
     <ClCompile Include="TreeDemo.cpp">
       <Filter>Resource Files\Algorithm\Tree</Filter>
     </ClCompile>
@@ -213,9 +213,6 @@
     <ClCompile Include="Problem819.cpp">
       <Filter>Resource Files\LeetCode\String</Filter>
     </ClCompile>
-    <ClCompile Include="StringOperationcpp.cpp">
-      <Filter>Resource Files\Others</Filter>
-    </ClCompile>
     <ClCompile Include="Problem921.cpp">
       <Filter>Resource Files\LeetCode\String</Filter>
     </ClCompile>
@@ -227,6 +224,39 @@
     </ClCompile>
     <ClCompile Include="Problem846.cpp">
       <Filter>Resource Files\LeetCode\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="StringOperation.cpp">
+      <Filter>Resource Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem873.cpp">
+      <Filter>Resource Files\LeetCode\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem835.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem779.cpp">
+      <Filter>Resource Files\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem670.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem813.cpp">
+      <Filter>Resource Files\LeetCode\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem729.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem731.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem732.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="SetDemo.cpp">
+      <Filter>Resource Files\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDemo.cpp">
+      <Filter>Resource Files\STL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
