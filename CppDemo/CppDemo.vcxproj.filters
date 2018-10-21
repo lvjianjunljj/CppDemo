@@ -85,6 +85,9 @@
     <Filter Include="Resource Files\Recursion">
       <UniqueIdentifier>{59a8085b-11a9-455f-972c-4fec5a0f39f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\LeetCode\BFS">
+      <UniqueIdentifier>{6d5e65d5-b187-49da-b5f7-51d131ea0ebe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problem771.cpp">
@@ -257,6 +260,12 @@
     </ClCompile>
     <ClCompile Include="MapDemo.cpp">
       <Filter>Resource Files\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem900.cpp">
+      <Filter>Resource Files\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem752.cpp">
+      <Filter>Resource Files\LeetCode\BFS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
