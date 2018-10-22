@@ -267,6 +267,9 @@
     <ClCompile Include="Problem752.cpp">
       <Filter>Resource Files\LeetCode\BFS</Filter>
     </ClCompile>
+    <ClCompile Include="Problem820.cpp">
+      <Filter>Resource Files\LeetCode\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
