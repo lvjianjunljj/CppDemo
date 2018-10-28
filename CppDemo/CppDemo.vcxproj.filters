@@ -88,6 +88,12 @@
     <Filter Include="Resource Files\LeetCode\BFS">
       <UniqueIdentifier>{6d5e65d5-b187-49da-b5f7-51d131ea0ebe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\LeetCode\Stack">
+      <UniqueIdentifier>{6c219269-0e4e-4977-aef3-277e10925f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LeetCode\UnionFind">
+      <UniqueIdentifier>{a91cb65d-93df-4d23-9a3a-19fd701506e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problem771.cpp">
@@ -269,6 +275,27 @@
     </ClCompile>
     <ClCompile Include="Problem820.cpp">
       <Filter>Resource Files\LeetCode\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem901.cpp">
+      <Filter>Resource Files\LeetCode\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem740.cpp">
+      <Filter>Resource Files\LeetCode\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem911.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem917.cpp">
+      <Filter>Resource Files\LeetCode\TowPointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem623.cpp">
+      <Filter>Resource Files\LeetCode\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem684.cpp">
+      <Filter>Resource Files\LeetCode\UnionFind</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem685.cpp">
+      <Filter>Resource Files\LeetCode\UnionFind</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

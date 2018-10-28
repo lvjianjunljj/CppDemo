@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -122,10 +122,14 @@
     <ClCompile Include="PostorderTraversal.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="PriorityQueueDemo.cpp" />
+    <ClCompile Include="Problem623.cpp" />
     <ClCompile Include="Problem670.cpp" />
+    <ClCompile Include="Problem684.cpp" />
+    <ClCompile Include="Problem685.cpp" />
     <ClCompile Include="Problem729.cpp" />
     <ClCompile Include="Problem731.cpp" />
     <ClCompile Include="Problem732.cpp" />
+    <ClCompile Include="Problem740.cpp" />
     <ClCompile Include="Problem752.cpp" />
     <ClCompile Include="Problem779.cpp" />
     <ClCompile Include="Problem784.cpp" />
@@ -137,9 +141,11 @@
     <ClCompile Include="Problem865.cpp" />
     <ClCompile Include="Problem873.cpp" />
     <ClCompile Include="Problem900.cpp" />
+    <ClCompile Include="Problem901.cpp" />
     <ClCompile Include="Problem905.cpp" />
     <ClCompile Include="Problem908.cpp" />
     <ClCompile Include="Problem910.cpp" />
+    <ClCompile Include="Problem911.cpp" />
     <ClCompile Include="Problem914.cpp" />
     <ClCompile Include="Problem461.cpp" />
     <ClCompile Include="Problem533.cpp" />
@@ -162,6 +168,7 @@
     <ClCompile Include="Problem892.cpp" />
     <ClCompile Include="Problem893.cpp" />
     <ClCompile Include="Problem897.cpp" />
+    <ClCompile Include="Problem917.cpp" />
     <ClCompile Include="Problem919.cpp" />
     <ClCompile Include="Problem921.cpp" />
     <ClCompile Include="Problem922.cpp" />
