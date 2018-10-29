@@ -297,6 +297,15 @@
     <ClCompile Include="Problem685.cpp">
       <Filter>Resource Files\LeetCode\UnionFind</Filter>
     </ClCompile>
+    <ClCompile Include="Problem583.cpp">
+      <Filter>Resource Files\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxMinVal.cpp">
+      <Filter>Resource Files\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem853.cpp">
+      <Filter>Resource Files\LeetCode\Stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

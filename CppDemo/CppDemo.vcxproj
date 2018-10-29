@@ -122,6 +122,7 @@
     <ClCompile Include="PostorderTraversal.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="PriorityQueueDemo.cpp" />
+    <ClCompile Include="Problem583.cpp" />
     <ClCompile Include="Problem623.cpp" />
     <ClCompile Include="Problem670.cpp" />
     <ClCompile Include="Problem684.cpp" />
@@ -138,6 +139,7 @@
     <ClCompile Include="Problem820.cpp" />
     <ClCompile Include="Problem835.cpp" />
     <ClCompile Include="Problem846.cpp" />
+    <ClCompile Include="Problem853.cpp" />
     <ClCompile Include="Problem865.cpp" />
     <ClCompile Include="Problem873.cpp" />
     <ClCompile Include="Problem900.cpp" />
@@ -176,6 +178,7 @@
     <ClCompile Include="SequenceTraversal.cpp" />
     <ClCompile Include="SetDemo.cpp" />
     <ClCompile Include="SortDemo.cpp" />
+    <ClCompile Include="MaxMinVal.cpp" />
     <ClCompile Include="StringOperation.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="MapDemo.cpp" />
